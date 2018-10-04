@@ -15,10 +15,10 @@ while True:
         print("--------------------------------\n")
         print("Please insert only numeric value\n")
         print("--------------------------------\n")
-        continue;
+        continue
 
     FahrenheitToCelsiusCalculator(temperature)
     if input("Input 0 to start over:  ") == "0": 
-        continue;
-    break;
+        continue
+    break
     
