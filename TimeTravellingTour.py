@@ -84,6 +84,9 @@ def determineCost(N,cities,roads):
 
 
 def main():
+    '''
+    https://community.topcoder.com/stat?c=problem_statement&pm=10782
+    '''
     N = 5
     cities = [2,3,2,4]
     roads = "0,2,4 0,1,2 2,1,2 1,3,3 4,0,4"
