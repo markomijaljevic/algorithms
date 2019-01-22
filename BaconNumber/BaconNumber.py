@@ -29,7 +29,7 @@ def printQueue(queue):
 
 def findBaconNumber(graph,actor1,actor2):
     queue = [movie for movie in graph.movies if actor1 in movie.actorsList]
-    last = queue[len(queue)-1] #dohvaćanje zadnjeg da bi se znalo kad završava koji level( kad uvecati bacon num)
+    last = queue[len(queue)-1] 
 
     while queue:
         #printQueue(queue)
